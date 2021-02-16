@@ -1,0 +1,153 @@
+@font-face{
+    src: url(fonts/Bazar.ttf);
+    font-family: baz;
+}
+@font-face {
+    src: url(fonts/SeasideResortNF.ttf);
+    font-family: sea;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(images/upBG.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1400px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 220px);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: end;
+    border-bottom: dashed #5f9191;
+
+}
+.gridContainer h3{
+    font-family: baz;
+    margin-top: 70px;
+    color: #f9ebd9;
+    
+}
+.imgSize{
+    width: 200px;
+}
+
+/* Other header element styles */
+.retro{
+    font-family: sea;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    color: #f6edd8;
+    text-shadow: 5px 1px gray;
+}
+.imageSize{
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+.otherContent{
+    margin-top: 50px;
+    border-top: dashed #5f9191;
+    border-bottom: dashed #5f9191;
+    outline: dashed #99c8c6;
+    padding-bottom: 10px;
+    outline-offset: 0;
+    
+}
+.slideStyle{
+    margin-top: 20px;
+}
+.sliderh{
+    background-color: #f9ebd9;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+/* Header footer note */
+.headerFooter{
+    text-align: center;
+    margin:60px 0;
+    font-family: baz;
+    font-size: 70px;
+    color: #f9ebd9;
+}
+
+
+/* Upper mid area styles */
+.topMidContainer{
+    background-image: url(images/upmidBG.png);
+    padding-top: 30px;
+    margin-top: 40px;
+    height: 1000px;
+    padding-bottom: 50px;
+
+
+}
+.uppderMid{
+    padding-top: 20px ;
+    
+
+}
+.uppderMid h1{
+    font-family: baz;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    color: #3a3a3a;
+}
+.uppderMid img{
+    display: block;
+    align-items: center;
+    margin: auto;
+}
+.uppderMid h3{
+    font-family: baz;
+    text-align: center;
+    color: #3a3a3a;
+    margin-top: 10px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+
+}
+.service{
+    padding: 30px;
+    color: #3a3a3a;
+}
+.service h1{
+    font-family: baz;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.service h4{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-block: solid #3a3a3a;
+    
+}
+.service img{
+    width: 200px;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.allServices{
+    border-top: dashed #aba79b;
+    border-bottom: dashed #aba79b;
+    outline: dashed #eae6d8;
+}
