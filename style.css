@@ -35,6 +35,11 @@ header{
 }
 .imgSize{
     width: 200px;
+    transition: 0.4s;
+}
+.imgSize:hover{
+    filter: drop-shadow(1px 1px 20px #f9ebd9);
+    
 }
 
 /* Other header element styles */
@@ -83,10 +88,10 @@ header{
 
 
 /* Upper mid area styles */
-.topMidContainer{
+#topMidContainer{
+    display: none;
     background-image: url(images/upmidBG.png);
     padding-top: 30px;
-    margin-top: 40px;
     height: 1000px;
     padding-bottom: 50px;
 
